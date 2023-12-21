@@ -9,16 +9,14 @@
   width: 50px;
   margin: 5px;
 }
-.sections > ul{
+.sections {
   display: flex;
   gap:10px;
   margin: 5px;
   
 }
-.sections > ul>li {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+.sections a {
+  text-decoration: none;
 }
 .cart{
   width:200px;
@@ -31,4 +29,7 @@
 .data{
   display: flex;
 flex-wrap: wrap;
+}
+.search{
+  margin:20px;
 }
